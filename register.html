@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/register.css">
+<link rel="stylesheet" type="text/css" href="foundation-icons.css">
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+<title></title>
+</head>
+<body>
+<div class="main">
+	<div class="main-top">
+		用户注册
+	</div>
+	<div class="main-guide">
+		<ul>
+			<li class="active"><i>1</i><span>填写基本信息</span></li>
+			<li><i>2</i><span>激活</span></li>
+			<li><i>3</i><span>注册成功</span></li>
+		</ul>
+	</div>
+	<div class="main-info">
+		<div class="info-item clearfix">
+			<span class="info-tip fi-asterisk">
+				用户名
+			</span>
+			<input type="text" name="username">
+			<i></i>
+		</div>
+		<div class="info-item clearfix">
+			<span class="info-tip fi-asterisk">
+				邮箱
+			</span>
+			<input type="text" name="email">
+			<i></i>
+		</div>
+		<div class="info-item clearfix">
+			<span class="info-tip fi-asterisk">
+				密码
+			</span>
+			<input type="password" name="passwd">
+			<i></i>
+		</div>
+		<div class="info-item clearfix">
+			<span class="info-tip fi-asterisk">
+				确认密码
+			</span>
+			<input type="password" name="checkpasswd">
+			<i></i>
+		</div>
+		<div class="info-item clearfix">
+			<span class="info-tip fi-asterisk">
+				验证码
+			</span>
+			<input type="text" name="checkcode">
+			<i></i>
+		</div>
+		<div class="info-item clearfix">
+			<span class="checkCode" title="验证码">
+				<img src="checkImg/checkCode.php" id="Code">
+			</span>
+			<i class="fi-graph-trend">看不清?点击图片换一换</i>
+		</div>
+		<div class="info-item clearfix">
+			<button class="btn">
+				注册
+			</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

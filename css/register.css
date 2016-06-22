@@ -1,0 +1,36 @@
+/*初始化css*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; outline: none; border: 1px solid #ccc; }
+input:focus, textarea:focus, select:focus, button:focus{ border-color: #19f;}
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+.clearfix:after {content: ""; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.main{width: 1190px; margin: 0 auto;}
+.main-top{height: 43px; padding: 20px 0; line-height: 43px;}
+.main-guide{height: 46px; border-bottom: 2px solid #ccc;}
+.main-guide ul{width: 720px; margin: 0 auto; line-height: 46px;}
+.main-guide ul li{ width: 240px; height: 46px; float: left; font-size: 16px; font-weight: 700; text-align: center; color: #ccc;}
+.main-guide ul li i{ color: #FFFFFF; line-height: 24px; width: 24px; height: 24px; background: #ccc; display: inline-block; text-align: center; margin: 12px 5px 12px 0; border-radius: 12px; font-style: normal;}
+.active{ border-bottom:2px solid #FF4000; color: #3e3e3e !important;}
+.active i{ background: #FF4000 !important;}
+.main-info{ height: 420px; padding: 50px 0;}
+.info-item{ height: 60px; width: 720px; margin: 0 auto;}
+.info-tip{ float: left; width: 230px; display: inline-block; height: 40px; line-height: 40px; text-align: right; padding: 10px 0; margin-right: 20px;}
+.info-item input{ height: 36px; width: 180px; padding: 0 10px; position: relative; margin: 10px 0; float: left;}
+.info-item i{ height: 40px; font-style: normal; display: block;float: left; margin: 10px 0 10px 20px; line-height: 40px; color: orange;}
+.info-item .btn{ width: 180px; height: 40px; margin: 10px 0 10px 250px; background: #ccc; text-align: center; line-height: 40px; border: 0;}
+.info-item .btn:hover{ cursor: pointer;}
+.checkCode{ line-height: 40px; text-align: center; float: left; width: 170px; height: 40px; margin:10px 0 10px 250px; display: inline-block;}
+.checkCode img{ width: 100%; height: 100%;}
+
+.activation{ font-size: 20px; text-align: center; height: 50px; line-height: 50px; margin: 185px auto;}
